@@ -173,8 +173,8 @@ Write a function called ***raceResults*** which accepts a single array argumen
 - Destructuring
 - `Enhanced` object assignment (same key/value shortcut)
 
-*
-raceResults(['Tom', 'Margaret', 'Allison', 'David', 'Pierre'])
+/*
+//raceResults(['Tom', 'Margaret', 'Allison', 'David', 'Pierre'])
 
 
   {
@@ -185,6 +185,4 @@ raceResults(['Tom', 'Margaret', 'Allison', 'David', 'Pierre'])
   }
 */
 
-function raceResults(obj){
-    return { first: first, second: second, third: third, ...rest}={...obj}
-}
+//const raceResults = ([first,second,third,...rest])=>({first, second, third, rest});
